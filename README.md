@@ -118,35 +118,35 @@ If you're new to soldering, we suggest to go component-by-component. If you have
 
 __Components needed:__ _2 x 1uF Ceramic Disc Capacitor_
 
-Shown on the board as 104 (this is the capacitor code for a 1uF capacitor)
-Orientation does not matter, it can be soldered either way round
+- Shown on the board as 104 (this is the capacitor code for a 1uF capacitor)
+- Orientation does not matter, it can be soldered either way round
 
 ### LEDs
 
 __Components needed:__ _2 x 3mm LED_
 
-Shown as a circle inside another circle, with + and - marked at the top
-Orientation here _does_ matter, the longest leg should go through the round pad (closest to the side marked A)
+- Shown as a circle inside another circle, with + and - marked at the top
+- Orientation here _does_ matter, the longest leg should go through the round pad (closest to the side marked A)
 
 ### Diode
 
 __Components needed:__ _1 x 1N5819 Diode_
 
-Orientation here _does_ matter, the silver line on the diode should align with the white line on the board. In addition, the leg closest to the silver line should go in the square pad marked with a K
+- Orientation here _does_ matter, the silver line on the diode should align with the white line on the board. In addition, the leg closest to the silver line should go in the square pad marked with a K
 
 ### Resistors
 
 __Components needed:__ _1 x 1M Resistor (Brown, Black, Black, Yellow, Brown), 1 x 100k Resistor (Brown, Black, Black, Orange, Brown), 2 x R4 1k Resistor (Brown, Black, Black, Brown, Brown)_
 
-Shown simply as 1M, 100k and 1k on the board
-Orientation does not matter, they can be soldered either way round
+- Shown simply as 1M, 100k and 1k on the board
+- Orientation does not matter, they can be soldered either way round
 
 ### Slide Switch
 
 __Components needed:__ _1 x Mini Slide Switch_
 
-Shown as a box at top right of PCB, marked with ON and OFF
-Orientation does not matter, it can be soldered either way round
+- Shown as a box at top right of PCB, marked with ON and OFF
+- Orientation does not matter, it can be soldered either way round
 
 The board should now look like this from the front and back:
 
