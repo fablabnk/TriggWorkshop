@@ -1,4 +1,8 @@
+TODO: resize images
+
 # So, What's a Trigg?
+
+BEST PICTURE OF TRIGG HERE
 
 A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. Coding, uploading and sharing games is done using a simple browser-based IDE that connects directly to the device using the web serial API, keeping everything easy and fun.
 
@@ -61,9 +65,9 @@ In soldering, we like silver - not golden - rules!
 1. Apply the principle 'heat the place you want the solder to go'. Often this is both 'pad' and 'pin'.
 2. Not too little, not too much solder: too little and the connection won't be solid, too much and you risk bridging other components
 3. Solder should always 'fuse' to the pad, not ball up on top. If this happens, apply heat the the pad to encourage the solder the flow down in place
-4. Larger areas or thicker wire require more heat: turn up the temperature
+4. Start low (e.g. 340°C), turn up if needed: larger areas or thicker wire require more heat
 5. Snip away from you: when snipping off excess wire after soldering, aim the board away from you to avoid 
-pinging in the eye
+pinging yourself in the eye
 
 ## Step 1: Solder the Tactile Switches
 
@@ -84,10 +88,10 @@ __Components needed:__ _1 x Raspberry Pi Pico, 2 x 20 Pin Header, 2 x 20 Pin Soc
 
 It is possible to order pin-headers pre-soldered for a small extra charge - but this a soldering workshop we can use the opportunity to get some much needed practice - we're going to make you work for your Trigg!
 
-Insert the pin headers into the sockets to use them as a solid base
-- place the Raspberry Pi Pico on top
-- start by soldering the corner pin that feels the most comfortable
-- now do the opposite corner pin (flip the Pico if it's more comfortable)
+1. Insert the long legs of the two pin headers into their corresponding pin sockets, to use them as a solid base
+2. Place the Raspberry Pi Pico on top of the pin headers, with the raspberry facing up
+3. Solder the corner pins from the top, starting with whichever feels more comfortable
+4. Solder all the pins inbetween
 
 <img src="./Images/pico_front_header_socket.jpg" width="30%">
 <img src="./Images/pico_back_header_socket.jpg" width="30%">
@@ -113,29 +117,34 @@ If you're new to soldering, we suggest to go component-by-component. If you have
 ### Capacitors
 
 __Components needed:__ _2 x 1uF Ceramic Disc Capacitor_
+
 Shown on the board as 104 (this is the capacitor code for a 1uF capacitor)
 Orientation does not matter, it can be soldered either way round
 
 ### LEDs
 
 __Components needed:__ _2 x 3mm LED_
+
 Shown as a circle inside another circle, with + and - marked at the top
 Orientation here _does_ matter, the longest leg should go through the round pad (closest to the side marked A)
 
 ### Diode
 
 __Components needed:__ _1 x 1N5819 Diode_
+
 Orientation here _does_ matter, the silver line on the diode should align with the white line on the board. In addition, the leg closest to the silver line should go in the square pad marked with a K
 
 ### Resistors
 
 __Components needed:__ _1 x 1M Resistor (Brown, Black, Black, Yellow, Brown), 1 x 100k Resistor (Brown, Black, Black, Orange, Brown), 2 x R4 1k Resistor (Brown, Black, Black, Brown, Brown)_
+
 Shown simply as 1M, 100k and 1k on the board
 Orientation does not matter, they can be soldered either way round
 
 ### Slide Switch
 
 __Components needed:__ _1 x Mini Slide Switch_
+
 Shown as a box at top right of PCB, marked with ON and OFF
 Orientation does not matter, it can be soldered either way round
 
