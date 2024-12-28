@@ -1,5 +1,3 @@
-TODO: resize images
-
 # So, What's a Trigg?
 
 <img src="./Images/build_complete.jpg">
@@ -60,20 +58,20 @@ Let's first zoom out and take a bird's eye view of the steps involved...
 
 ## Step 0: 'Running in' the Iron
 
-A good iron should have a silvery tip and solder should run easily onto it at a standard temp of around 340 degrees. Don't start soldering components until this is the case!
+- A good iron should have a silvery tip and solder should run easily onto it at a standard temp of around 340 degrees. Don't start soldering components until this is the case!
 
-To , rotate the iron whilst applying solder to the tip to find a spot where the solder melts. Try to expand on this spot until the whole tip is silvery and solder melts everywhere.
+- To get an iron in good shape: rotate the iron whilst applying solder to the tip to find a spot where the solder melts. Try to expand on this spot until the whole tip is silvery and solder melts everywhere. Return to this process anytime you notice the iron's performance deteriorating.
 
-Don't worry about wasting a little solder, when there's too much just clean up the tip on a wet sponge or wire brush as you go. Return to this process anytime you notice the iron's performance deteriorating.
+- Don't worry about wasting a little solder. When there's too much just clean up the tip on a wet sponge or wire brush as you go. 
 
-### Some silver rules of soldering
+## Silver rules of soldering
 
 In soldering, we like silver - not golden - rules!
 
 1. Apply the principle 'heat the place you want the solder to go'. Often this is both 'pad' and 'pin'.
 2. Not too little, not too much solder: too little and the connection won't be solid, too much and you risk bridging other components
 3. Solder should always 'fuse' to the pad, not ball up on top. If this happens, apply heat the the pad to encourage the solder the flow down in place
-4. Start with temperature low (e.g. 340°C), turn up if needed: larger areas or thicker wire require more heat
+4. Start with temperature low (e.g. 340°C) and turn up if needed: larger areas or thicker wire require more heat
 5. Snip away from you: when snipping off excess wire, aim the board away from you to avoid pinging yourself in the eye!
 
 ## Step 1: Solder the Tactile Switches
@@ -223,7 +221,7 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 
 1. Insert the long legs of the yellow 7-pin header (from the bag) into the 7-pin socket (taken from the rest of our kit components)
 2. Rest the board on the pin socket/header with the chip facing up and the names of the pins visible
-3. Lay the board and the pin socket/header down in such a way that it forms a stable triangle [see photo].
+3. Lay the board and the pin socket/header down in such a way that it forms a stable triangle (see photo).
 
 <img src="./Images/amp_pin_header.jpg">
 
