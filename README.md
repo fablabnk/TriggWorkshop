@@ -130,7 +130,7 @@ __Components needed:__ _2 x 1uF Ceramic Disc Capacitor_
 __Components needed:__ _2 x 3mm LED_
 
 - Shown as a circle inside another circle, with + and - marked at the top
-- Orientation here _does_ matter, the longest leg should go through the round pad (closest to the side marked A)
+- Orientation here _does_ matter, the longest leg should go through the square pad
 
 ### Diode
 
