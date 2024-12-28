@@ -106,7 +106,6 @@ For now we can set our socketed Pico aside. Later we will solder it onto the bac
 ## Step 3: Solder Front-side Components
 
 <img src="./Images/components_front.jpg">
-<img src="./Images/components_back.jpg">
 
 Now place and solder all other front-side components (listed below), as follows:
 
