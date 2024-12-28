@@ -101,7 +101,7 @@ It is possible to order pin-headers pre-soldered for a small extra charge - but 
 4. Solder all the pins inbetween
 
 <img src="./Images/pico_front_header_socket.jpg">
-<img src="./Images/pico_back_header_socket.jpg">
+<img src="./Images/pico_back_header_socket.jpg" width="30%">
 
 For now we can set our socketed Pico aside. Later we will solder it onto the back of our printed circuit board.
 
