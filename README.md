@@ -6,13 +6,13 @@ TODO: resize images
 
 A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. 
 
-<img src="./Images/sprig_gallery.jpg" width="70%">
+<img src="./Images/sprig_gallery.png" width="70%">
 
 Your can find our forked Trigg repo [here](https://github.com/fablabnk/Trigg).
 
 Coding, uploading and sharing games is done using a simple browser-based IDE that connects directly to the device using the web serial API, keeping everything easy and fun.
 
-<img src="./Images/sprig_splash.jpg" width="70%">
+<img src="./Images/sprig_splash.png" width="70%">
 
 In the fabrication lab of our coding school 42 Berlin, we adapted the original surface mount Sprig design to turn it into a through-hole soldering kit. Our aim was to lower the barrier for anyone to be able to build the console using basic soldering skills and without entering into the costly process of having fully assembled (PCBA) boards made. With our version, you can simply order the PCB using a China-based fab-house (e.g. JLCPCB), source all other components on AliExpress and put it together. The total cost per unit is around €15.
 
