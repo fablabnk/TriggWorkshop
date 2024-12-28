@@ -2,21 +2,21 @@ TODO: resize images
 
 # So, What's a Trigg?
 
-<img src="./Images/build_complete.jpg" width="70%">
+<img src="./Images/build_complete.jpg">
 
-A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. 
+A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. Your can find our forked Trigg repo [here](https://github.com/fablabnk/Trigg).
 
-<img src="./Images/sprig_gallery.png" width="70%">
-
-Your can find our forked Trigg repo [here](https://github.com/fablabnk/Trigg).
+<img src="./Images/sprig_splash.png">
 
 Coding, uploading and sharing games is done using a simple browser-based IDE that connects directly to the device using the web serial API, keeping everything easy and fun.
 
-<img src="./Images/sprig_splash.png" width="70%">
+<img src="./Images/sprig_gallery.png">
 
-In the fabrication lab of our coding school 42 Berlin, we adapted the original surface mount Sprig design to turn it into a through-hole soldering kit. Our aim was to lower the barrier for anyone to be able to build the console using basic soldering skills and without entering into the costly process of having fully assembled (PCBA) boards made. With our version, you can simply order the PCB using a China-based fab-house (e.g. JLCPCB), source all other components on AliExpress and put it together. The total cost per unit is around €15.
+In the fabrication lab of our coding school 42 Berlin, we adapted the original surface mount Sprig design to turn it into a through-hole soldering kit. Our aim was to lower the barrier for anyone to be able to build the console using basic soldering skills and without having to have fully assembled (PCBA) boards made.
 
-# Bill of Materials (BOM) - Laying Out the Components
+With our version, you can simply order the PCB using a China-based fab-house (e.g. JLCPCB), source all other components on AliExpress and put it together. The total cost per unit is around €15.
+
+# Getting Started: Laying Out the Components (Bill of Materials)
 
 Below is a list all the components in your Trigg kit, in the order in which we will use them. This is a good opportunity to lay everything out in front of you and check all parts are there!
 
@@ -43,7 +43,7 @@ Below is a list all the components in your Trigg kit, in the order in which we w
 | 1        | Max98357A Amplifier Board (bagged separately)|
 | 1        | 7-pin Socket                                 |
 
-<img src="./Images/components_all.jpg" width="70%">
+<img src="./Images/components_all.jpg">
 
 # Overview
 
@@ -100,15 +100,15 @@ It is possible to order pin-headers pre-soldered for a small extra charge - but 
 3. Solder the corner pins from the top, starting with whichever feels more comfortable
 4. Solder all the pins inbetween
 
-<img src="./Images/pico_front_header_socket.jpg" width="30%">
-<img src="./Images/pico_back_header_socket.jpg" width="30%">
+<img src="./Images/pico_front_header_socket.jpg">
+<img src="./Images/pico_back_header_socket.jpg">
 
 For now we can set our socketed Pico aside. Later we will solder it onto the back of our printed circuit board.
 
 ## Step 3: Solder Front-side Components
 
-<img src="./Images/components_front.jpg" width="30%">
-<img src="./Images/components_back.jpg" width="30%">
+<img src="./Images/components_front.jpg">
+<img src="./Images/components_back.jpg">
 
 Now place and solder all other front-side components (listed below), as follows:
 
@@ -157,8 +157,8 @@ __Components needed:__ _1 x Mini Slide Switch_
 
 The board should now look like this from the front and back:
 
-<img src="./Images/front_resistors_etc.jpg" width="30%">
-<img src="./Images/back_resistors_etc.jpg" width="30%">
+<img src="./Images/front_resistors_etc.jpg">
+<img src="./Images/back_resistors_etc.jpg">
 
 ## Step 4: Mounting the display
 
@@ -169,7 +169,7 @@ The display comes in a separate anti-static bag, you can open this now if you ha
 In order to mount to the diplay, we will need to:
 1. Solder the missing 4-pin header onto the right hand side of the display itself
 
-<img src="./Images/display_4_pin_header.jpg" width="30%">
+<img src="./Images/display_4_pin_header.jpg">
 
 2. Insert the display into the provided 8-pin and 4-pin sockets
 3. Insert the socketed display into the front of the printed circuit board
@@ -178,7 +178,7 @@ In order to mount to the diplay, we will need to:
 
 Here's how the front of the board looks with the display sockets soldered on and the display removed:
 
-<img src="./Images/front_display_sockets.jpg" width="30%">
+<img src="./Images/front_display_sockets.jpg">
 
 Note: If you prefer a 'low profile' screen instead of a raised one, it is possible to solder the display directly onto the pin-headers, without using the sockets. If you choose to do this however, the metal SD card slot on the back of the display should be covered with electrical or other isolating tape, to prevent it shorting against the pins that back onto it. Proceed at your own risk - so far we never tried it!
 
@@ -186,20 +186,20 @@ Note: If you prefer a 'low profile' screen instead of a raised one, it is possib
 
 The back-side of the board contains only larger components such as the Raspberry Pi Pico, battery holder, speaker, and audio amplifier
 
-<img src="./Images/components_back.jpg" width="30%">
+<img src="./Images/components_back.jpg">
 
 ### Battery Holder
 
 - The 2xAAA battery holder has a small plastic dot on the back, which we need cut off it order for it to mount flush against the board. You can use the same - snippers to chop it off.
 
-<img src="./Images/battery_holder_knobble.jpg" width="30%">
+<img src="./Images/battery_holder_knobble.jpg">
 
 1. Insert the two pins of the battery holder into the holes on the back of the board. You may need to bend the pins to make them wider or narrower before they will both fit through
 2. Flip the board, solder one pin, check for flushness, adjust if necessary and then solder the other pin
 
 The board should now look like this:
 
-<img src="./Images/back_battery_holder.jpg" width="30%">
+<img src="./Images/back_battery_holder.jpg">
 
 ### Raspberry Pi Pico
 
@@ -209,7 +209,7 @@ If you completed the earlier step, the Pico should have it's two pin headers sol
 2. Insert the Pico from the back of the board, paying attention to the vertical orientation (the USB connector should face to the top of the board)
 3. Flip the board over and rest it on the Pico. For extra stability, it can help here to already insert the pin-header and socket for the audio amplifier (see photo) - don't solder it yet though
 
-<img src="./Images/.jpg" width="30%">
+<img src="./Images/.jpg">
 
 4. Solder one corner pin of the Pico, check for flushness and adjust if necessary
 5. Solder the opposite corner pin, then all the remaining pins. Take care when soldering close to the 4-pin socket for the display
@@ -225,13 +225,13 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 2. Rest the board on the pin socket/header with the chip facing up and the names of the pins visible
 3. Lay the board and the pin socket/header down in such a way that it forms a stable triangle [see photo].
 
-<img src="./Images/amp_pin_header.jpg" width="30%">
+<img src="./Images/amp_pin_header.jpg">
 
 4. Solder each of the pins
 
 ### Attaching the Speaker to the Amplifier Board
 
-<img src="./Images/speaker_front_snipped_untwisted.jpg" width="30%">
+<img src="./Images/speaker_front_snipped_untwisted.jpg">
 
 1. Unbag the speaker
 2. Cut off the speaker wires approx 2.5cm from speaker
@@ -250,8 +250,8 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 
 Now here is how it should look from the back and from the front:
 
-<img src="./Images/back_amp_speaker.jpg" width="30%">
-<img src="./Images/speaker_from_front.jpg" width="30%">
+<img src="./Images/back_amp_speaker.jpg">
+<img src="./Images/speaker_from_front.jpg">
 
 ### Testing
 
@@ -260,7 +260,7 @@ Now here is how it should look from the back and from the front:
 - Your pico comes pre-flashed with Spade firmware. If you have any issues, you can reflash it following the instructions [here](https://github.com/hackclub/sprig/blob/main/docs/UPLOAD.md)
 - To upload more games, connect the Pico via USB cable to your PC, head to [https://sprig.hackclub.com/gallery](https://sprig.hackclub.com/gallery) to design/modify games and flash them directly on the browser using the "Run on Device" option
 
-<img src="./Images/build_complete.jpg" width="30%">
+<img src="./Images/build_complete.jpg">
 
 ### Known Bugs
 - Some games work fine on the web IDE but show errors on the Trigg itself - we didn't yet investigate why...
