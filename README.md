@@ -208,8 +208,6 @@ If you completed the earlier step, the Pico should have it's two pin headers sol
 
 <img src="./Images/back_pico_batt_ampsocket2.jpg">
 
-<img src="./Images/back_pico_batt_ampsocket2.jpg">
-
 4. Solder one corner pin of the Pico, check for flushness and adjust if necessary
 5. Solder the opposite corner pin, then all the remaining pins. Take care when soldering close to the 4-pin socket for the display
 6. Remount the display into it's sockets
@@ -250,7 +248,7 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 1. Insert the amplifier board into the back of the Trigg using it's 7-pin socket
 2. Flip the board, resting it on the Pico and amplifier board
 3. Solder the pins
-4. Orient the speaker until the wire sits under the board (not outside it), then remove the white sticker from the speaker, align it with the printed ring on the circuit board and press down firmly
+4. Flip board back over. Orient the speaker until the wire sits under the board (not outside it), then remove the white sticker from the speaker, align it with the printed ring on the circuit board and press down firmly
 
 Now here is how it should look from the back and from the front:
 
@@ -270,6 +268,6 @@ Now here is how it should look from the back and from the front:
 - Some games work fine on the web IDE but show errors on the Trigg itself - we didn't yet investigate why...
 - The LEDs don't appear to be used in any games yet (see issues section of GitHub)
 - Use a freshly-charged set of batteries. Game-freezes can occur if the batteries are partially discharged.
-- The GPIO header on PCB is supposed to be unused
+- The GPIO header on PCB is supposed to be unused!
 
-We hope you have fun playing with and coding for your Trigg!
+We hope you have fun playing with and coding for your Trigg! :)
