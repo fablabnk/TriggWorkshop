@@ -2,9 +2,17 @@ TODO: resize images
 
 # So, What's a Trigg?
 
-BEST PICTURE OF TRIGG HERE
+<img src="./Images/build_complete.jpg" width="70%">
 
-A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. Coding, uploading and sharing games is done using a simple browser-based IDE that connects directly to the device using the web serial API, keeping everything easy and fun.
+A Trigg is our hand-soldering-friendly kit version of the [Hack Club Sprig](https://sprig.hackclub.com/), a mini Raspberry Pi Pico-based games console for making tile-based games. 
+
+<img src="./Images/sprig_gallery.jpg" width="70%">
+
+Your can find our forked Trigg repo [here](https://github.com/fablabnk/Trigg).
+
+Coding, uploading and sharing games is done using a simple browser-based IDE that connects directly to the device using the web serial API, keeping everything easy and fun.
+
+<img src="./Images/sprig_splash.jpg" width="70%">
 
 In the fabrication lab of our coding school 42 Berlin, we adapted the original surface mount Sprig design to turn it into a through-hole soldering kit. Our aim was to lower the barrier for anyone to be able to build the console using basic soldering skills and without entering into the costly process of having fully assembled (PCBA) boards made. With our version, you can simply order the PCB using a China-based fab-house (e.g. JLCPCB), source all other components on AliExpress and put it together. The total cost per unit is around €15.
 
@@ -12,30 +20,30 @@ In the fabrication lab of our coding school 42 Berlin, we adapted the original s
 
 Below is a list all the components in your Trigg kit, in the order in which we will use them. This is a good opportunity to lay everything out in front of you and check all parts are there!
 
-| Step | Quantity | Description                                   |
-|------|----------|-----------------------------------------------|
-| 0    | 1        | Trigg Printed Circuit Board - not in bag      |
-| 1    | 8        | 12mm Tactile Switch                           |
-| 2    | 1        | Raspberry Pi Pico - not in bag               |
-| 3    | 2        | 20-pin Header                                |
-| 4    | 2        | 20-pin Socket                                |
-| 5    | 2        | 1uF Ceramic Disc Capacitor  (104)            |
-| 6    | 2        | 3mm LED                                |
-| 7    | 1        | 1N5819 Diode                                 |
-| 8    | 1        | 1M Resistor - Brown Black Black Yellow Brown |
-| 9    | 1        | 100k Resistor - Brown Black Black Orange Brown |
-| 10   | 2        | 1k Resistor - Brown Black Black Brown Brown |
-| 11   | 1        | Mini Slide Switch                            |
-| 12   | 1        | 1.8" TFT Display 120x160 (bagged separately) |
-| 13   | 1        | 4-pin Header                                 |
-| 14   | 1        | 4-pin Socket                                 |
-| 15   | 1        | 8-pin Socket                                 |
-| 16   | 1        | 2xAAA Battery Holder                         |
-| 17   | 1        | 1W Speaker (bagged separately)               |
-| 18   | 1        | Max98357A Amplifier Board (bagged separately)|
-| 19   | 1        | 7-pin Socket                                 |
+| Quantity | Description                                   |
+|----------|-----------------------------------------------|
+| 1        | Trigg Printed Circuit Board (not in bag)      |
+| 8        | 12mm Tactile Switch                           |
+| 1        | Raspberry Pi Pico (not in bag)               |
+| 2        | 20-pin Header                                |
+| 2        | 20-pin Socket                                |
+| 2        | 1uF Ceramic Disc Capacitor  (104)            |
+| 2        | 3mm LED                                |
+| 1        | 1N5819 Diode                                 |
+| 1        | 1M Resistor - Brown Black Black Yellow Brown |
+| 1        | 100k Resistor - Brown Black Black Orange Brown |
+| 2        | 1k Resistor - Brown Black Black Brown Brown |
+| 1        | Mini Slide Switch                            |
+| 1        | 1.8" TFT Display 120x160 (bagged separately) |
+| 1        | 4-pin Header                                 |
+| 1        | 4-pin Socket                                 |
+| 1        | 8-pin Socket                                 |
+| 1        | 2xAAA Battery Holder                         |
+| 1        | 1W Speaker (bagged separately)               |
+| 1        | Max98357A Amplifier Board (bagged separately)|
+| 1        | 7-pin Socket                                 |
 
-<img src="./Images/components_all.jpg" width="30%">
+<img src="./Images/components_all.jpg" width="70%">
 
 # Overview
 
@@ -50,11 +58,11 @@ Let's first zoom out and take a bird's eye view of the steps involved...
 
 # Step-By-Step Build Guide
 
-## Step 0: Running in the Iron
+## Step 0: 'Running in' the Iron
 
-A good iron should have a silvery tip and solder should run easily onto it at a standard temp of around 340 degrees. Don't start soldering components until this is the case.
+A good iron should have a silvery tip and solder should run easily onto it at a standard temp of around 340 degrees. Don't start soldering components until this is the case!
 
-If it isn't the case, rotate the iron whilst applying solder to the tip to find a spot where the solder melts. Try to expand on this spot until the whole tip is silvery and solder melts everywhere.
+To , rotate the iron whilst applying solder to the tip to find a spot where the solder melts. Try to expand on this spot until the whole tip is silvery and solder melts everywhere.
 
 Don't worry about wasting a little solder, when there's too much just clean up the tip on a wet sponge or wire brush as you go. Return to this process anytime you notice the iron's performance deteriorating.
 
@@ -65,9 +73,8 @@ In soldering, we like silver - not golden - rules!
 1. Apply the principle 'heat the place you want the solder to go'. Often this is both 'pad' and 'pin'.
 2. Not too little, not too much solder: too little and the connection won't be solid, too much and you risk bridging other components
 3. Solder should always 'fuse' to the pad, not ball up on top. If this happens, apply heat the the pad to encourage the solder the flow down in place
-4. Start low (e.g. 340°C), turn up if needed: larger areas or thicker wire require more heat
-5. Snip away from you: when snipping off excess wire after soldering, aim the board away from you to avoid 
-pinging yourself in the eye
+4. Start with temperature low (e.g. 340°C), turn up if needed: larger areas or thicker wire require more heat
+5. Snip away from you: when snipping off excess wire, aim the board away from you to avoid pinging yourself in the eye!
 
 ## Step 1: Solder the Tactile Switches
 
@@ -79,14 +86,14 @@ These are the easiest components to solder in the whole build, as they have larg
 2. Flip the board and bend the legs back slightly to hold the button in place
 
 We recommend to place all the buttons before soldering any, as this forms a solid base. Then for each button:
-- Solder one leg first and flip the board the check the button is sitting flush against the board. If not, you can still correct this now by applying heat and pushing on the button. After two - this becomes much harder.
-- Solder the remaining legs
+1. Solder one leg and flip the board the check the button is sitting flush against the board. If not, you can still correct this now by applying heat and pushing on the button.
+2. Solder the remaining legs
 
 ## Step 2: Solder the Pin Headers onto the Raspberry Pi Pico
 
 __Components needed:__ _1 x Raspberry Pi Pico, 2 x 20 Pin Header, 2 x 20 Pin Socket_
 
-It is possible to order pin-headers pre-soldered for a small extra charge - but this a soldering workshop we can use the opportunity to get some much needed practice - we're going to make you work for your Trigg!
+It is possible to order pin-headers pre-soldered for a small extra charge - but as this a soldering workshop we can use the opportunity to get some much needed practice. We're going to make you work for your Trigg!
 
 1. Insert the long legs of the two pin headers into their corresponding pin sockets, to use them as a solid base
 2. Place the Raspberry Pi Pico on top of the pin headers, with the raspberry facing up
@@ -96,14 +103,14 @@ It is possible to order pin-headers pre-soldered for a small extra charge - but 
 <img src="./Images/pico_front_header_socket.jpg" width="30%">
 <img src="./Images/pico_back_header_socket.jpg" width="30%">
 
-For now we can set our socketed Pico aside. Later we will solder it onto the back of our printed circuit board
+For now we can set our socketed Pico aside. Later we will solder it onto the back of our printed circuit board.
 
 ## Step 3: Solder Front-side Components
 
 <img src="./Images/components_front.jpg" width="30%">
 <img src="./Images/components_back.jpg" width="30%">
 
-Now place and solder other front-side components, following the general process
+Now place and solder all other front-side components (listed below), as follows:
 
 1. Insert the component into the marked place on the front side of the board
 2. Flip the board and bend wires/pins back at 45 degrees to keep in place
@@ -132,11 +139,11 @@ __Components needed:__ _2 x 3mm LED_
 
 __Components needed:__ _1 x 1N5819 Diode_
 
-- Orientation here _does_ matter, the silver line on the diode should align with the white line on the board. In addition, the leg closest to the silver line should go in the square pad marked with a K
+- Orientation here _does_ matter, the silver line on the diode should align with the white line on the board. In addition, the leg closest to the silver line should go in the square pad marked with a K.
 
 ### Resistors
 
-__Components needed:__ _1 x 1M Resistor (Brown, Black, Black, Yellow, Brown), 1 x 100k Resistor (Brown, Black, Black, Orange, Brown), 2 x R4 1k Resistor (Brown, Black, Black, Brown, Brown)_
+__Components needed:__ _1 x 1M Resistor (Brown, Black, Black, Yellow, Brown), 1 x 100k Resistor (Brown, Black, Black, Orange, Brown), 2 x 1k Resistor (Brown, Black, Black, Brown, Brown)_
 
 - Shown simply as 1M, 100k and 1k on the board
 - Orientation does not matter, they can be soldered either way round
@@ -187,8 +194,8 @@ The back-side of the board contains only larger components such as the Raspberry
 
 <img src="./Images/battery_holder_knobble.jpg" width="30%">
 
-- Insert the two pins of the battery holder into the holes on the back of the board. You may need to bend the pins to make them wider or narrower before they will both fit through
-- Flip the board, solder one pin, check for flushness, adjust if necessary and then solder the other pin
+1. Insert the two pins of the battery holder into the holes on the back of the board. You may need to bend the pins to make them wider or narrower before they will both fit through
+2. Flip the board, solder one pin, check for flushness, adjust if necessary and then solder the other pin
 
 The board should now look like this:
 
@@ -200,27 +207,27 @@ If you completed the earlier step, the Pico should have it's two pin headers sol
 
 1. Unmount the display from it's sockets to allow access to the Pico's solder pads
 2. Insert the Pico from the back of the board, paying attention to the vertical orientation (the USB connector should face to the top of the board)
-3. Flip the board over and rest it on the Pico
-Note: for extra stability, it can help here to already insert the pin-header and socket for the audio amplifier (see photo) - don't solder it yet though
+3. Flip the board over and rest it on the Pico. For extra stability, it can help here to already insert the pin-header and socket for the audio amplifier (see photo) - don't solder it yet though
 
-back_battery_holder
+<img src="./Images/.jpg" width="30%">
 
 4. Solder one corner pin of the Pico, check for flushness and adjust if necessary
-5. Solder the opposite corner pin, then all the remaining pins
-6. Take care when soldering close to the 4-pin socket for the display
-7. Remount the display
+5. Solder the opposite corner pin, then all the remaining pins. Take care when soldering close to the 4-pin socket for the display
+6. Remount the display into it's sockets
 
 ### Assembling the Amplifier Board 
 
 __Components needed:__ _Max98357A ClassD I2S Mono Amplifier Breakout Board, 7-pin header (yellow - in bag), 7-pin socket (black)_
 
-The amplifier breakout board comes in a separate anti-static bag, open this now if you haven't already. Inside the bag you will find a yellow 7-pin header and a green screw terminal. We can discard the screw terminal. We won't use it as it would stick out too much from the back of our Trigg.
+The amplifier breakout board comes in a separate anti-static bag, open this now if you haven't already. Inside the bag you will find a yellow 7-pin header and a green screw terminal. We can discard the screw terminal (we won't use it as it would stick out too much from the back of our Trigg).
 
-- Insert the long legs of the yellow 7-pin header (from the bag) into the 7-pin socket (taken from the rest of our kit components)
-- Rest the board on the pin socket/header with the chip facing up and the names of the pins visible
-- Lay the board and the pin socket/header down in such a way that it forms a stable triangle [see photo]. The board should sit at 90 degrees
+1. Insert the long legs of the yellow 7-pin header (from the bag) into the 7-pin socket (taken from the rest of our kit components)
+2. Rest the board on the pin socket/header with the chip facing up and the names of the pins visible
+3. Lay the board and the pin socket/header down in such a way that it forms a stable triangle [see photo].
 
 <img src="./Images/amp_pin_header.jpg" width="30%">
+
+4. Solder each of the pins
 
 ### Attaching the Speaker to the Amplifier Board
 
@@ -228,37 +235,37 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 
 1. Unbag the speaker
 2. Cut off the speaker wires approx 2.5cm from speaker
-3. Trim 4mm off the end of each wire, braid both together
-4. Optionally lightly tin the end of each wire with solder (so they stick easly through pad holes)
-5. Push wires up through the bottom of the board and solder from the top
-- the red wire goes to the plus (+) terminal
-- the black wire goes to the minus (-) terminal
+3. Trim 4mm off the end of each wire and braid them together
+4. Optionally lightly tin the end of each wire with solder
+5. Push the wires up through the bottom of the board and solder them from the top. Take note that:
+- The red wire goes to the plus (+) terminal
+- The black wire goes to the minus (-) terminal
 
 ### Soldering the Amplifier Board and Speaker
 
 1. Insert the amplifier board into the back of the Trigg using it's 7-pin socket
 2. Flip the board, resting it on the Pico and amplifier board
-3. Remove the white sticker from the speaker and press it firmly.
+3. Solder the pins
+4. Orient the speaker until the wire sits under the board (not outside it), then remove the white sticker from the speaker, align it with the printed ring on the circuit board and press down firmly
 
-Here is how it should look from the back and from the front
+Now here is how it should look from the back and from the front:
 
-<img src="./Images/speaker_from_front.jpg" width="30%">
 <img src="./Images/back_amp_speaker.jpg" width="30%">
+<img src="./Images/speaker_from_front.jpg" width="30%">
 
 ### Testing
 
-- For the first try, connect with a cable to a USB charger
-- Once this works, 
-- Use a freshly-charged set of batteries. Game-freezes can occur if the batteries are partially discharged.
-- Your pico comes pre-flashed with Spade firmware. If you have any issues, you can reflash it [here]()
-- To add more games, connect the Pico via USB cable to your PC, head to []() to explore the gallery or to design/modify your own and flash directly on the browser using the "Run on Device" option
+- For a reliable first try, connect the Trigg with a cable to a USB charger
+- Once that works feel free to try with batteries
+- Your pico comes pre-flashed with Spade firmware. If you have any issues, you can reflash it following the instructions [here](https://github.com/hackclub/sprig/blob/main/docs/UPLOAD.md)
+- To upload more games, connect the Pico via USB cable to your PC, head to [https://sprig.hackclub.com/gallery](https://sprig.hackclub.com/gallery) to design/modify games and flash them directly on the browser using the "Run on Device" option
 
 <img src="./Images/build_complete.jpg" width="30%">
 
-Caveats: 
+### Known Bugs
 - Some games work fine on the web IDE but show errors on the Trigg itself - we didn't yet investigate why...
-- The LEDs don't appear to be used in any games yet - see issues section of GitHub
-- When batteries are partially discharged, the console may just freeze. It's good to keep two sets of rechargable batteries in rotation. If in doubt about the cause of any bugs, use a USB cable to provide power
-- The GPIO header isn't 
+- The LEDs don't appear to be used in any games yet (see issues section of GitHub)
+- Use a freshly-charged set of batteries. Game-freezes can occur if the batteries are partially discharged.
+- The GPIO header on PCB is supposed to be unused
 
 We hope you have fun playing with and coding for your Trigg!
