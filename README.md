@@ -101,7 +101,7 @@ It is possible to order pin-headers pre-soldered for a small extra charge - but 
 4. Solder all the pins inbetween
 
 <img src="./Images/pico_front_header_socket.jpg">
-<img src="./Images/pico_back_header_socket.jpg" width="30%">
+<img src="./Images/pico_back_header_socket.jpg" width="50%">
 
 For now we can set our socketed Pico aside. Later we will solder it onto the back of our printed circuit board.
 
@@ -169,7 +169,7 @@ The display comes in a separate anti-static bag, you can open this now if you ha
 In order to mount to the diplay, we will need to:
 1. Solder the missing 4-pin header onto the right hand side of the display itself
 
-<img src="./Images/display_4_pin_header.jpg">
+<img src="./Images/display_4_pin_header.jpg" width="50%">
 
 2. Insert the display into the provided 8-pin and 4-pin sockets
 3. Insert the socketed display into the front of the printed circuit board
@@ -209,7 +209,7 @@ If you completed the earlier step, the Pico should have it's two pin headers sol
 2. Insert the Pico from the back of the board, paying attention to the vertical orientation (the USB connector should face to the top of the board)
 3. Flip the board over and rest it on the Pico. For extra stability, it can help here to already insert the pin-header and socket for the audio amplifier (see photo) - don't solder it yet though
 
-<img src="./Images/.jpg">
+<img src="./Images/back_pico_batt_ampsocket2.jpg">
 
 4. Solder one corner pin of the Pico, check for flushness and adjust if necessary
 5. Solder the opposite corner pin, then all the remaining pins. Take care when soldering close to the 4-pin socket for the display
