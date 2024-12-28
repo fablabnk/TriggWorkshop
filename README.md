@@ -113,7 +113,7 @@ Now place and solder all other front-side components (listed below), as follows:
 1. Insert the component into the marked place on the front side of the board
 2. Flip the board and bend wires/pins back at 45 degrees to keep in place
 3. Solder one of the pins/wires to the silver solder pad
-4. Flip the board and check for flushness - correct now if any issues
+4. Flip the board and check for flushness - correct this now if there are any issues
 5. Solder the remaining pins/wires
 6. Snip off any excess wires, taking care to point the board away from you
 
@@ -209,6 +209,8 @@ If you completed the earlier step, the Pico should have it's two pin headers sol
 
 <img src="./Images/back_pico_batt_ampsocket2.jpg">
 
+<img src="./Images/back_pico_batt_ampsocket2.jpg">
+
 4. Solder one corner pin of the Pico, check for flushness and adjust if necessary
 5. Solder the opposite corner pin, then all the remaining pins. Take care when soldering close to the 4-pin socket for the display
 6. Remount the display into it's sockets
@@ -225,19 +227,24 @@ The amplifier breakout board comes in a separate anti-static bag, open this now 
 
 <img src="./Images/amp_pin_header.jpg">
 
-4. Solder each of the pins
+4. Now solder each of the pins
 
 ### Attaching the Speaker to the Amplifier Board
 
-<img src="./Images/speaker_front_snipped_untwisted.jpg">
+
 
 1. Unbag the speaker
 2. Cut off the speaker wires approx 2.5cm from speaker
-3. Trim 4mm off the end of each wire and braid them together
-4. Optionally lightly tin the end of each wire with solder
+3. Trim 4mm off the end of each wire and braid them together. 
+4. Optionally lightly tin the end of each wire with solder. It should now look like this:
+
+<img src="./Images/speaker_back_snipped_twisted.jpg">
+
 5. Push the wires up through the bottom of the board and solder them from the top. Take note that:
 - The red wire goes to the plus (+) terminal
 - The black wire goes to the minus (-) terminal
+
+<img src="./Images/amp_speaker.jpg">
 
 ### Soldering the Amplifier Board and Speaker
 
