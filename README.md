@@ -255,11 +255,11 @@ Now here is how it should look from the back and from the front:
 <img src="./Images/back_amp_speaker.jpg">
 <img src="./Images/speaker_from_front.jpg">
 
-### Testing
+### Flashing Firmware and Testing
 
+- Your pico first needs to be flashed with the original Sprig Spade firmware. If you have any issues, as documented [here](https://github.com/hackclub/sprig/blob/main/docs/UPLOAD.md)
 - For a reliable first try, connect the Trigg with a cable to a USB charger
 - Once that works feel free to try with batteries
-- Your pico comes pre-flashed with Spade firmware. If you have any issues, you can reflash it following the instructions [here](https://github.com/hackclub/sprig/blob/main/docs/UPLOAD.md)
 - To upload more games, connect the Pico via USB cable to your PC, head to [https://sprig.hackclub.com/gallery](https://sprig.hackclub.com/gallery) to design/modify games and flash them directly on the browser using the "Run on Device" option
 
 <img src="./Images/build_complete.jpg">
