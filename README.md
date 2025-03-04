@@ -16,6 +16,8 @@ With our version, you can simply order the PCB using a China-based fab-house (e.
 
 # Getting Started: Laying Out the Components (Bill of Materials)
 
+First, an important note that the boards you have use a 105 capacitor instead of a 104 as previously. This is updated in text of the guide, but the photos of the PCB will still show 104.
+
 Below is a list all the components in your Trigg kit, in the order in which we will use them. This is a good opportunity to lay everything out in front of you and check all parts are there!
 
 | Quantity | Description                                   |
@@ -25,7 +27,7 @@ Below is a list all the components in your Trigg kit, in the order in which we w
 | 1        | Raspberry Pi Pico (not in bag)               |
 | 2        | 20-pin Header                                |
 | 2        | 20-pin Socket                                |
-| 2        | 1uF Ceramic Disc Capacitor  (104)            |
+| 2        | 1uF Ceramic Disc Capacitor  (105)            |
 | 2        | 3mm LED                                |
 | 1        | 1N5819 Diode                                 |
 | 1        | 1M Resistor - Brown Black Black Yellow Brown |
@@ -122,7 +124,7 @@ If you're new to soldering, we suggest to go component-by-component. If you have
 
 __Components needed:__ _2 x 1uF Ceramic Disc Capacitor_
 
-- Shown on the board as 104 (this is the capacitor code for a 1uF capacitor)
+- Shown on the board as 105 (this is the capacitor code for a 1uF capacitor)
 - Orientation does not matter, it can be soldered either way round
 
 ### LEDs
