@@ -2,6 +2,8 @@
 
 The repo build guide below has been superceded by [this PDF build guide](TriggBuildGuide.pdf). Please refer to this as the one source of truth. If the extra info and images below help, that's a bonus!
 
+<img src="./Images/TriggBuildGuide.png">
+
 # So, What's a Trigg?
 
 <img src="./Images/build_complete.jpg">
