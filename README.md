@@ -1,3 +1,7 @@
+# :warning: Important!
+
+The repo build guide below has been superceded by [this PDF build guide](TriggBuildGuide.pdf). Please refer to this as the one source of truth. If the extra info and images below help, that's a bonus!
+
 # So, What's a Trigg?
 
 <img src="./Images/build_complete.jpg">
@@ -25,7 +29,7 @@ Below is a list all the components in your Trigg kit, in the order in which we w
 | 1        | Raspberry Pi Pico (not in bag)               |
 | 2        | 20-pin Header                                |
 | 2        | 20-pin Socket                                |
-| 2        | 1uF Ceramic Disc Capacitor  (104)            |
+| 2        | 1uF Ceramic Disc Capacitor  (105)            |
 | 2        | 3mm LED                                |
 | 1        | 1N5819 Diode                                 |
 | 1        | 1M Resistor - Brown Black Black Yellow Brown |
